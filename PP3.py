@@ -28,7 +28,6 @@ def q0():
     global cabecote_1
     global cabecote_2
 
-    print('q0')
     if fita_1[cabecote_1] == 'I':
 
         cabecote_1 += 1
@@ -48,8 +47,6 @@ def q1():
     global cabecote_1
     global cabecote_2
 
-    print('q1')
-    imprimeFitas()
 
     if fita_1[cabecote_1] == 'I':
         
@@ -83,8 +80,6 @@ def q2():
     global cabecote_1
     global cabecote_2
 
-    #print('q2')
-    #imprimeFitas()
 
     if fita_1[cabecote_1] == 'I':
         
@@ -103,8 +98,6 @@ def q3():
     global cabecote_1
     global cabecote_2
 
-    #print('q3')
-    #imprimeFitas()
 
     if fita_1[cabecote_1] == 'I':
         cabecote_1 += 1
