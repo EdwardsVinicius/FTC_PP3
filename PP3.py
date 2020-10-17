@@ -24,12 +24,17 @@ def imprimeFitas():
 
     print('\n')
 
+def resultadoMod():
+    i = 1
+    while fita_2[i] != '\0':
+        print(fita_2[i], end = '')
+        i+=1
+
 def q0():
     global cabecote_1
     global cabecote_2
 
     print('q0')
-    imprimeFitas()
     if fita_1[cabecote_1] == 'I' and fita_2[cabecote_2] == '\0':
         cabecote_1 += 1
             
@@ -175,7 +180,7 @@ def q6():
     print('q6')
     imprimeFitas()
     if fita_1[cabecote_1] == '#' and fita_2[cabecote_2] == 'I':
-        fita_2[cabecote_2] = '\0'
+        #fita_2[cabecote_2] = '\0'
         cabecote_2 += 1
         q8()
         return
@@ -219,4 +224,6 @@ for i in lines:
 
     q0()
 
-    print(i, resultado)
+    print(i, end='=')
+    resultadoMod()
+    print(resultado)
