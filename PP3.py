@@ -34,7 +34,6 @@ def q0():
     global cabecote_1
     global cabecote_2
 
-    print('q0')
     if fita_1[cabecote_1] == 'I' and fita_2[cabecote_2] == '\0':
         cabecote_1 += 1
             
@@ -51,8 +50,6 @@ def q1():
     global cabecote_1
     global cabecote_2
 
-    print('q1')
-    imprimeFitas()
     if fita_1[cabecote_1] == 'I' and fita_2[cabecote_2] == '\0':
         cabecote_1 += 1
 
@@ -78,8 +75,6 @@ def q2():
     global cabecote_1
     global cabecote_2
 
-    print('q2')
-    imprimeFitas()
     if fita_1[cabecote_1] == 'I' and fita_2[cabecote_2] == 'I':
         cabecote_1 += 1
 
@@ -95,8 +90,6 @@ def q3():
     global cabecote_1
     global cabecote_2
 
-    print('q3')
-    imprimeFitas()
     if fita_1[cabecote_1] == 'I' and fita_2[cabecote_2] == 'I':
         cabecote_1 += 1
 
@@ -136,8 +129,6 @@ def q4():
     global cabecote_1
     global cabecote_2
 
-    print('q4')
-    imprimeFitas()
     if fita_1[cabecote_1] == 'I' and fita_2[cabecote_2] == 'I':
         cabecote_1 -= 1
         q4()
@@ -155,8 +146,6 @@ def q5():
     global cabecote_1
     global cabecote_2
     
-    print('q5')
-    imprimeFitas()
     if fita_1[cabecote_1] == 'I' and fita_2[cabecote_2] == '\0':
         cabecote_1 -= 1
 
@@ -177,8 +166,6 @@ def q6():
     global cabecote_1
     global cabecote_2
 
-    print('q6')
-    imprimeFitas()
     if fita_1[cabecote_1] == '#' and fita_2[cabecote_2] == 'I':
         #fita_2[cabecote_2] = '\0'
         cabecote_2 += 1
@@ -190,14 +177,12 @@ def q6():
 def q7():
     global resultado
 
-    print('q7')
     resultado = "ACEITA"
     return resultado
 
 def q8():
     global resultado
 
-    print('q8')
     resultado = "ACEITA"
     return resultado 
 
