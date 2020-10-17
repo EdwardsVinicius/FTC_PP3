@@ -187,31 +187,28 @@ def q8():
     return resultado 
 
 #main
-lines = []
 while True:
     try:
         line = input()
-        lines.append(line)
     except EOFError:
         break
 
-for i in lines:
-    cabecote_1 = 0
-    cabecote_2 = 1
+cabecote_1 = 0
+cabecote_2 = 1
 
-    resultado = "REJEITA"
+resultado = "REJEITA"
     
-    fita_1 = i
-    fita_1 = list(fita_1)
-    fita_1.append('\0')
+fita_1 = line
+fita_1 = list(fita_1)
+fita_1.append('\0')
 
-    fita_2 = ['\0', '\0']
+fita_2 = ['\0', '\0']
 
-    q0()
+q0()
 
-    if resultado == "ACEITA":
-        print(i, end='=')
-        resultadoMod()
-        print('', resultado)
-    else:
-        print(i, resultado)
+if resultado == "ACEITA":
+    print(line, end='=')
+    resultadoMod()
+    print('', resultado)
+else:
+    print(line, resultado)
