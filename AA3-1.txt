@@ -1,0 +1,9 @@
+FTC - AA3.1
+
+4.a - Toda 'função que seria naturalmente considerada computável' pode ser computada por uma Máquina de Turing.
+
+4.b - Devido à imprecisão do conceito de uma "função que seria naturalmente considerada computável", a tese não pode ser formalmente provada, mas pode ser refutada caso seja descoberta uma máquina teórica mais poderosa que a máquina de turing.
+
+4.c - Como todas as diversas tentativas de formalizar o conceito de algoritmo levaram a resultados equivalentes, geralmente assume-se que a tese de Church-Turing é correta.
+
+6 - Teste de Turing: O teste consiste em se fazer perguntas a uma pessoa e um computador escondidos. Um computador e seus programas passa o Teste de Turing se, pelas respostas, for impossível a alguém distinguir qual interlocutor é a máquina e qual é a pessoa. Se tornou praticamente o ponto de partida da pesquisa em "Inteligência Artificial". 
