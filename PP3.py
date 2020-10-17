@@ -215,12 +215,14 @@ def q6():
 def q7():
     global resultado
 
-    return resultado = 'ACEITA'
+    resultado = 'ACEITA'
+    return resultado
 
 def q8():
     global resultado
 
-    return resultado = 'ACEITA'
+    resultado = 'ACEITA'
+    return resultado 
 
 #main
 lines = []
