@@ -224,6 +224,9 @@ for i in lines:
 
     q0()
 
-    print(i, end='=')
-    resultadoMod()
-    print(resultado)
+    if resultado == "ACEITA":
+        print(i, end='=')
+        resultadoMod()
+        print('', resultado)
+    else:
+        print(i, resultado)
